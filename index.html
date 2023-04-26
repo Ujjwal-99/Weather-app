@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot" style="color:black;"></i>
+            <input type="text" placeholder="Enter your Location" name="" id="">
+            <button ><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>    
+            <div class="error">
+                <img src="/weather-app/image/45056788-e708-4c0f-95c3-6e9cb2076af6.jpg" alt="">
+                <p>
+                    Oops! Invalid Location
+                </p>
+            </div>   
+            <div class="weather-box">
+                <img src="/weather-app/image/1bb737e6-09e4-4a71-a8a7-02cc1b0fcd63.jpg" alt="">
+                <h2 class="temp">0<span>&degC</span></h2>
+                <p class="disc">Brocken Clould</p>
+            </div> 
+              <div class="weather-detail">
+                <div class="humidity">
+                    <i class="fa-solid fa-water"></i>
+                    <div>
+                    <span>88%</span>
+                    <p class="">Humidity</p>
+                   </div>
+                </div>
+                <div class="speed">
+                    <i class="fa-solid fa-wind"></i>
+                   <div>
+                    <span>0Km/h</span>
+                    <p>Wind Speed</p>
+                   </div>
+                </div>
+            </div>
+        
+    </div>
+</body>
+</html>
