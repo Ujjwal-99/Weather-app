@@ -10,7 +10,7 @@ search.addEventListener('click',()=>{
    
     if (city==='') return;
    
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${key}`).then((Response)=>Response.json()).then((json)=>{
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${key}`).then((Response)=>Response.json()).then((json) => {
         if(json.cod==='404'){
         container.style.height='505px';
         weatherBox,.style.display='none';
